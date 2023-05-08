@@ -1,3 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('Simple website loaded');
+
+document.getElementById("toggleDarkMode").addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
 });
